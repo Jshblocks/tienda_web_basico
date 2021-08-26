@@ -55,8 +55,18 @@ background-size: 120% 100%
 .insertartext{
     font-size:0.8rem;
     text-align: center;
-
 }
+.x{
+    text-align: center;
+    background-image: url("../imagenes/frente.png");
+    min-height: 700px;
+   background-position: center center;
+   background-size: 800px auto; 
+   background-repeat: no-repeat;
+   background-color:black;
+   padding-top: 1px;
+       }
+
 .ofertas{
     font-family: "SF Pro Text";
     font-size: 200px;
