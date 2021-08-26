@@ -53,7 +53,8 @@ background-size: 120% 100%
     
 }
 .insertartext{
-    font-size:0.8rem;
+    font-family: "SF Pro Text";
+    font-size:0.9rem;
     text-align: center;
 }
 .x{
