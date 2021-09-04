@@ -1,58 +1,38 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-    <!-- Required meta tags -->
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>login</title>
-    <link rel="stylesheet" href="./css/login.css">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
-</head>
-
-<body>
-    <div class="container">
-        <div class="row ">
-            <div class="col-md-7">
-                <h1 class="a">login</h1>
-                </h1>
-                <hr style="color:black;">
-                </hr>
-                <p style="color:gray">
-                    </style>
-                    Su ID de Apple es la dirección de correo electrónico que usa para iniciar sesion en la adquision de los productos. </p>
-            </div>
-            <form>
-                <div class="row form-group "></div>
-                <label for="Nombre" class="col-form-label col-md-4 ">Nombre de Usuario o Apple ID:</label>
-                <div class="col-md-8">
-                    <input type=" texto" name="Nombre" value=" " id="Nombre" class="form-control">
-                </div>
-                <div class="row form-group"></div>
-                <label for="ID" class="col-form-label col-md-4 ">Contraseña:</label>
-                <div class="col-md-8">
-                    <input type=" texto" name="ID" value=" " id="ID" class="form-control">
-                </div>
-                <div>
-                    <button type="submit" style="align-items: center;" clas="btn btn-info">Sign in</button>
-                </div>
-            </form>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/login.css" rel="stylesheet">
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="formContainer fadeInDown">
+        <div id="formContent">
+          
+          <div class="fadeIn first mt-4 mb-4">
+            <img src="imagenes/apple.png" class="icon" id="icon" alt="User Icon"/>
+          </div>
+      
+          <form>
+            <div class="col-8 centerInputs mb-3">
+                <input type="email" class="formInputs form-control" id="AppleID" placeholder="Apple ID" style="text-align: center;">
+              </div>
+              <div class="col-8 centerInputs mb-3">
+                <input type="password" class="formInputs form-control" id="Passowrd" placeholder="Contraseña" style="text-align: center;">
+              </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <button type="submit" class="btn btn-lg btn-primary mt-3 mb-4 formButton">Log In</button>
+              </div>
+          </form>
+      
+          <div id="formFooter">
+            <a class="underlineHover" href="#">Forgot Password?</a>
+          </div>
+      
         </div>
-    </div>
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
-    -->
-</body>
-
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
 </html>
